@@ -1,0 +1,64 @@
+public class UpperLower {
+  public static void main(String[] args) {
+    String txt = "Credo Systemz";
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.toLowerCase());
+  }
+}
+]
+
+
+
+public class Concat {
+  public static void main(String args[]) {
+    String firstName = "Credo";
+    String lastName = "Systemz";
+    System.out.println(firstName + " " + lastName);
+  }
+}
+
+
+
+public class Concat1 {
+  public static void main(String[] args) {
+    String firstName = "Credo ";
+    String lastName = "Systemz";
+    System.out.println(firstName.concat(lastName));
+  }
+}
+
+
+
+public class IndexOf {
+  public static void main(String[] args) {
+    String txt = "Please locate where 'locate' occurs!";
+    System.out.println(txt.indexOf("locate"));
+  }
+}
+
+
+
+public class Length {
+  public static void main(String[] args) {
+    String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    System.out.println("The length of the txt string is: " + txt.length());
+  }
+}
+
+
+
+public class NewLine {
+  public static void main(String[] args) {
+    String txt = "Credo\nSystemz!";
+    System.out.println(txt);
+  }
+}
+
+
+
+public class Tab {
+  public static void main(String[] args) {
+    String txt = "Credo\tSystemz!";
+    System.out.println(txt);
+  }
+}
